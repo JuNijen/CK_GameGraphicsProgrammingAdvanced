@@ -45,6 +45,21 @@
     <ClInclude Include="..\Common\MathHelper.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="CK_DX_02_01_BasicRenderTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\d3dx11effect.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\d3dxGlobal.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dxerr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GeometryGenerator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GGPA.cpp">
@@ -63,6 +78,15 @@
       <Filter>Common</Filter>
     </ClCompile>
     <ClCompile Include="..\Common\MathHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CK_DX_02_01_BasicRenderTriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dxerr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\GeometryGenerator.cpp">
       <Filter>Common</Filter>
     </ClCompile>
   </ItemGroup>
